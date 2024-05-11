@@ -19,71 +19,114 @@
 </head>
 <body>
 
+<div class="container">
 
-	<!-- Hlavicka -->
-	<h1>Kadeřnictví Scissors <small>(není opravdové)</small></h1>
+	<div class="row">
+		<!-- Hlavicka -->
+		<div class="col-12 text-danger bg-dark">
+		<h1 class="fs-6 ">Kadeřnictví Scissors</h1>
+		</div>	
 
-
-
-	<!-- Hlavni menu -->
-	<ul>
-		<li><a href="#kadernice">Kadeřnice</a></li>
-		<li><a href="#sluzby">Služby</a></li>
-		<li><a href="#reference">Řekli o nás</a></li>
-		<li><a href="#fotogalerie">Fotogalerie</a></li>
-		<li><a href="#kontakt">Kontakt</a></li>
-	</ul>
-
-
+		<!-- Hlavni menu -->
+		<div class="row">
+		<ul class="nav col-12 bg-dark">
+			<li class="col-6 col-md-2"><a href="#kadernice" class="nav-link text-white" >Kadeřnice</a></li>
+			<li class="col-6 col-md-2"><a href="#sluzby" class="nav-link text-white" >Služby</a></li>
+			<li class="col-6 col-md-2"><a href="#reference" class="nav-link text-white" >Řekli o nás</a></li>
+			<li class="col-6 col-md-2"><a href="#fotogalerie" class="nav-link text-white" >Fotogalerie</a></li>
+			<li class="col-6 col-md-2"><a href="#kontakt" class="nav-link text-white" >Kontakt</a></li>
+		</ul>
+		</div>
+		
+	</div>
+	
 
 	<!-- Obrazek -->
-	<img src="images/carousel1.jpg" alt="Kadeřnictví">
+	<img src="images/carousel1.jpg" class="img-fluid" alt="Kadeřnictví">
 
-
+	
 
 	<!-- Akce, novinky -->
-	<h2>Akce -30&nbsp;%</h2>
-	<p>Květen je měsíc vlasů. Přijď ho s námi oslavit a <strong>získej slevu 30&nbsp;%</strong> na všechny naše služby. Ohrom své přátele novým účesem.</p>
+	<div class="row">
+		<div class="col-12 col-md-4 bg-danger">
+	<h2 class="text-white">Akce -30&nbsp;%</h2>
+		</div>
+		<div class="col-12 col-md-8  bg-danger">
+	<p class="text-white">Květen je měsíc vlasů. Přijď ho s námi oslavit a <strong>získej slevu 30&nbsp;%</strong> na všechny naše služby. Ohrom své přátele novým účesem.</p>
+	</div>	
+	</div>
 
 
+<!-- Kadernice -->
+<div class="row navbar navbar bg-light">
+	
+	<div class="col-12 text-center pt-3">
+	<h2 id="kadernice text-center">Naše kadeřnice</h2>
+	</div>
 
-	<!-- Kadernice -->
-
-	<h2 id="kadernice">Naše kadeřnice</h2>
-
-	<img src="images/kadernice-helena.jpg" alt="Helena Králíková">
+	<div class="col-12 col-md-4 text-center">
+	<img src="images/kadernice-helena.jpg" class="rounded-circle  py-3" alt="Helena Králíková">
 	<h3>Helena Králíková</h3>
 	<p>Kadeřnice s více než patnáctiletou praxí, jedna ze zakladatelek české kadeřnické akademie. Specialistka na exotické účesy pro zvláštní příležitosti.</p>
+	</div>
 
-	<img src="images/kadernice-eliska.jpg" alt="Eliška Dvořáková">
+	<div class="col-12 col-md-4 text-center">
+	<img src="images/kadernice-eliska.jpg"  class="rounded-circle py-3" alt="Eliška Dvořáková">
 	<h3>Eliška Dvořáková</h3>
 	<p>Držitelka několika národních i mezinárodních ocenění, mimo jiné i Kadeřnice roku a Účes roku. Spolupracuje s předními českými i světovými kadeřníky.</p>
+	</div>
 
-	<img src="images/kadernice-jarmila.jpg" alt="Jarmila Prokopová">
+	<div class="col-12 col-md-4 text-center">
+	<img src="images/kadernice-jarmila.jpg" class="rounded-circle py-3" alt="Jarmila Prokopová">
 	<h3>Jarmila Prokopová</h3>
 	<p>Specialistka na pánské a dětské střihy se zkušenostmi s česáním módních přehlídek a vlasových show. Certifikovaná odbornice na modeláž nehtů.</p>
+	</div>
 
+</div>
 	<!-- konec #kadernice -->
 
 
-
 	<!-- Sluzby -->
-
+	<div class="col-12 text-center pt-3">
 	<h2 id="sluzby">Služby</h2>
+	</div>
 
-	<img src="images/sluzby-damske.svg" width="100" height="100" alt="Dámské kadeřnictví">
-	<h3>Dámské kadeřnictví</h3>
-	<p>Moderní střihy, barvení vlasů, melírování, přelivy, svatební účesy, večerní účesy, preparace vlasů, trvalé, prodlužování a zhuštění vlasů, prodej připínacích pramenů, poradenství a prodej vlasové kosmetiky.</p>
+<div class="row">
+		<div class="col-12 d-flex">	
+			<div class="flex-shrink-0">
+		<img src="images/sluzby-damske.svg " width="100" height="100" alt="Dámské kadeřnictví">
+			</div>
+			<div class="flex-grow-1 ms-3">
+		<h3>Dámské kadeřnictví</h3>
+		<p>Moderní střihy, barvení vlasů, melírování, přelivy, svatební účesy, večerní účesy, preparace vlasů, trvalé, prodlužování a zhuštění vlasů, prodej připínacích pramenů, poradenství a prodej vlasové kosmetiky.</p>
+		</div>
+		</div>
+		
 
-	<img src="images/sluzby-panske.svg" width="100" height="100" alt="Pánské kadeřnictví">
-	<h3>Pánské kadeřnictví</h3>
-	<p>Střihy, zastřižení, střih strojkem, melírování, barvení vlasů, tonování šedivých vlasů, tvarování gelem, zastřižení vousů a knírů, masáž hlavy, poradenství, prodej vlasové pánské kosmetiky.</p>
+		<div class="col-12 d-flex">
+			<div class="flex-shrink-0">
+		<img src="images/sluzby-panske.svg" width="100" height="100" alt="Pánské kadeřnictví">
+			</div>
+			<div class="flex-grow-1 ms-3">
+		<h3>Pánské kadeřnictví</h3>
+		<p>Střihy, zastřižení, střih strojkem, melírování, barvení vlasů, tonování šedivých vlasů, tvarování gelem, zastřižení vousů a knírů, masáž hlavy, poradenství, prodej vlasové pánské kosmetiky.</p>
+		</div>
+		</div>
+		
 
-	<img src="images/sluzby-kosmetika.svg" width="100" height="100" alt="Kosmetika">
-	<h3>Kosmetika a péče o pleť</h3>
-	<p>Ošetření pleti, masáže obličeje, úprava a barvení řas a obočí, líčení pro všechny příležitosti, depilace, manikůra, poradenství a prodej kosmetiky na domácí péči.</p>
-
-	<table>
+		<div class="col-12 d-flex">
+			<div class="flex-shrink-0">
+		<img src="images/sluzby-kosmetika.svg" width="100" height="100" alt="Kosmetika">
+			</div>
+			<div class="flex-grow-1 ms-3">
+		<h3>Kosmetika a péče o pleť</h3>
+		<p>Ošetření pleti, masáže obličeje, úprava a barvení řas a obočí, líčení pro všechny příležitosti, depilace, manikůra, poradenství a prodej kosmetiky na domácí péči.</p>
+		</div>
+		</div>
+		
+	
+		<h4 class="text-center">Ceník</h4>
+		<table class="col-6 table table-bordered">
 		<tbody>
 			<tr>
 				<td>Dámské stříhání</td>
@@ -115,63 +158,94 @@
 			</tr>
 		</tbody>
 	</table>
+	
+</div>
 
 	<!-- konec #sluzby -->
 
 
-
 	<!-- Reference / Rekli o nas -->
+<div class="row navbar navbar bg-light">
+	<h2 id="reference" class="text-center">Řekli o nás</h2>
 
-	<h2 id="reference">Řekli o nás</h2>
-
-	<img src="images/reference-lucie.jpg" alt="Lucie Nováková">
+	<div class="col-12 col-md-6 d-flex py-2">
+		<div class="flex-shrink-0">
+	<img src="images/reference-lucie.jpg"  class="rounded-circle" alt="Lucie Nováková">
+		</div>
+		<div class="flex-grow-1 ms-3">
 	<p>Kadeřnictví Scissors je v Praze prostě nejlepší. Vím to s jistotou, protože normálně mám vlasy jako dikobraz a po ostřihání vypadám vždy jako supermodelka.<br>
-	<em>&mdash; Lucie Nováková</em></p>
+	<em class="text-secondary">&mdash; Lucie Nováková</em></p>
+		</div>
+	</div>
 
-	<img src="images/reference-klotilda.jpg" alt="Klotilda Marnotratná">
+
+	<div class="col-12 col-md-6 d-flex py-2">
+		<div class="flex-shrink-0">
+	<img src="images/reference-klotilda.jpg" class="rounded-circle" alt="Klotilda Marnotratná">
+		</div>
+		<div class="flex-grow-1 ms-3">
 	<p>Salón jsem doposud navštívila dvakrát a vždy jsem byla maximálně spokojena s přístupem, prostředím, službami. Děkuji.<br>
-	<em>&mdash; Klotilda Marnotratná</em></p>
+	<em class="text-secondary">&mdash; Klotilda Marnotratná</em></p>
+		</div>
+	</div>
 
-	<img src="images/reference-jana.jpg" alt="Jana Vostrá">
+
+	<div class="col-12 col-md-6 d-flex py-2">
+		<div class="flex-shrink-0">
+	<img src="images/reference-jana.jpg" class="rounded-circle" alt="Jana Vostrá">
+		</div>
+		<div class="flex-grow-1 ms-3">
 	<p>Helena je mojí kadeřnicí už několik let a dobrý kadeřník se nemění! I přes profesionální služby vás příjemně překvapí velmi dostupná cena.<br>
-	<em>&mdash; Jana Vostrá</em></p>
+	<em class="text-secondary">&mdash; Jana Vostrá</em></p>
+		</div>
+	</div>
 
-	<img src="images/reference-libor.jpg" alt="Libor Kohout">
+
+	<div class="col-12 col-md-6 d-flex py-2">
+		<div class="flex-shrink-0">
+	<img src="images/reference-libor.jpg" class="rounded-circle" alt="Libor Kohout">
+		</div>
+		<div class="flex-grow-1 ms-3">
 	<p>Bez čekání, za 30 minut, super ostříhán. Vracím se pravidelně a rád.<br>
-	<em>&mdash; Libor Kohout</em></p>
+	<em class="text-secondary">&mdash; Libor Kohout</em></p>
+		</div>
+	</div>
+</div>
 
 	<!-- konec #reference -->
 
 
 
 	<!-- Fotogalerie -->
-
-	<h2 id="fotogalerie">Fotogalerie</h2>
-
-	<img src="images/foto01.jpg" alt="Foto 01">
-	<img src="images/foto02.jpg" alt="Foto 02">
-	<img src="images/foto03.jpg" alt="Foto 03">
-	<img src="images/foto04.jpg" alt="Foto 04">
-	<img src="images/foto05.jpg" alt="Foto 05">
-	<img src="images/foto06.jpg" alt="Foto 06">
-	<img src="images/foto07.jpg" alt="Foto 07">
-	<img src="images/foto08.jpg" alt="Foto 08">
-	<img src="images/foto09.jpg" alt="Foto 09">
-	<img src="images/foto10.jpg" alt="Foto 10">
-	<img src="images/foto11.jpg" alt="Foto 11">
-	<img src="images/foto12.jpg" alt="Foto 12">
-
+	<div class="container-fluid">
+<div class="row g-0">
+	<h2 id="fotogalerie" class="text-center">Fotogalerie</h2>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto01.jpg" class="img-fluid color-dark" alt="Foto 01"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto02.jpg" class="img-fluid" alt="Foto 02"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto03.jpg" class="img-fluid" alt="Foto 03"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto04.jpg" class="img-fluid" alt="Foto 04"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto05.jpg" class="img-fluid" alt="Foto 05"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto06.jpg" class="img-fluid" alt="Foto 06"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto07.jpg" class="img-fluid" alt="Foto 07"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto08.jpg" class="img-fluid" alt="Foto 08"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto09.jpg" class="img-fluid" alt="Foto 09"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto10.jpg" class="img-fluid" alt="Foto 10"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto11.jpg" class="img-fluid" alt="Foto 11"></div>
+<div class="col-12 col-sm-3 col-lg-2"><img src="images/foto12.jpg" class="img-fluid" alt="Foto 12"></div>
+</div>
+</div>
 	<!-- konec #fotogalerie -->
 
 
 
 	<!-- Kontakt -->
-
-	<h2 id="kontakt">Kontakt</h2>
-
+	
+<div class="container navbar navbar bg-light">
+	<div class="row">
+	<h2 id="kontakt" div class="col-12 text-center">Kontakt</h2>
 	<h3>Otevírací doba</h3>
 
-	<table>
+	<table class="col-sms-6 col-md-4 table-bordered " >
 		<tbody>
 			<tr>
 				<td>Pondělí&ndash;čtvrtek</td>
@@ -192,7 +266,7 @@
 		</tbody>
 	</table>
 
-
+	<div class="col-sms-6 col-md-4 ">
 	<h3>Kadeřnictví Scissors</h3>
 	<p>
 		Pouliční třída 13/2047<br>
@@ -202,10 +276,13 @@
 	<p><a href="mailto:ahoj@scissors.cz">ahoj@scissors.cz</a></p>
 
 	<p>Telefonické objednávky:<br>+420 123 456 789</p>
+	</div>
 
-
+	<div class="col-sms-12 col-md-4">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20480.33164028703!2d14.39369546845803!3d50.08551071335367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x75209738d1d3b126!2sCharles+Bridge!5e0!3m2!1sen!2scz!4v1464236145887" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+</div>
+</div>
+</div>
 	<!-- konec #kontakt -->
 
 
@@ -241,6 +318,6 @@
 
 	<script src="js/bootstrap.bundle.min.js"></script>
 
-
+</div>
 </body>
 </html>
