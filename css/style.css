@@ -13,3 +13,42 @@ světle šedá: #f0f0f0
 */
 
 /* --- pod tuto čáru piš svoje CSS --- */
+body {
+	font-family: 'Crimson Text', serif;
+	font-weight: 500;
+}
+h2,
+h3,
+h4 {
+	font-family: 'Crimson Text', serif;
+	font-weight: 700;
+	font-style: italic;
+}
+h1 {
+	font-family: 'Crimson Text', serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.text-pink {
+	color: var(--bs-pink);
+}
+.bg-pink {
+	background-color: var(--bs-pink);
+}
+.bg-light-gray {
+	background-color: #f0f0f0;
+}
+.dotted {
+	border-style: dotted !important;
+}
+.fotogalerie img {
+	filter: grayscale(100%);
+}
+a {
+	text-decoration: none;
+}
+footer a,
+footer li a {
+	color: var(--bs-pink);
+}
+
